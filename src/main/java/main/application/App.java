@@ -12,7 +12,7 @@ public class App extends Application {
     @Override
     public void start(Stage primaryStage) {
         Button btn = new Button();
-        btn.setText("It's time to make it works!");
+        btn.setText("It's time to make it work!");
         btn.setOnAction(new EventHandler<ActionEvent>() {
  
             @Override
